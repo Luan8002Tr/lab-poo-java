@@ -7,7 +7,12 @@ public class Entrada1 {
 
         var aresta = Double.parseDouble(args[0]);
         var volume = Math.pow(aresta, 3);
-        System.out.println("Seu nome é " + args[0] );
-        
+        System.out.println("Cubo" + args[0] );
+
+        var lado1 = Double.parseDouble(args[0]);
+        var lado2 = Double.parseDouble(args[1]);
+        var lado3 = Double.parseDouble(args[2]);
+        var volume2 = lado1*lado2*lado3 ;
+        System.out.println("PARALELEPIPEDO " + args[volume2] );
     }
 }
