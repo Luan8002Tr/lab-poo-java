@@ -16,11 +16,11 @@ public class Condicionais3 {
          * um case é simples
          */
         var sc = new Scanner(System.in);
-        System.out.println("Digite o material do seu lixo:");
+        System.out.println("Digite o material do seu resíduo:");
         var copo = sc.next();
         switch (copo) {
             case "comida", "bebida" -> System.out.println("Jogue na lixeira marrom");
-            case "plastico" -> System.out.println("Jogue na lixeira vermelha");
+            case "plástico" -> System.out.println("Jogue na lixeira vermelha");
             case "metal" -> System.out.println("Jogue na lixeira amarelo");
             case "vidro" -> System.out.println("Jogue na lixeira verde");
         }

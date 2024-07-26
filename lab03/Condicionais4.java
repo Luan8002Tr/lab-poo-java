@@ -13,14 +13,14 @@ public class Condicionais3 {
          * 
          */
         var sc = new Scanner(System.in);
-        System.out.println("Digite o material do seu lixo:");
+        System.out.println("Digite o material do seu resíduo:");
         String copo = sc.next();
         switch (copo) {
             case "comida":
             case "bebida":
                 System.out.println("Jogue na lixeira marrom");
                 break;
-            case "plastico":
+            case "plástico":
                 System.out.println("Jogue na lixeira vermelha");
                 break;
             case "metal":
